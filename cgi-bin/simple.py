@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import urllib3
+import requests
 
 import os
 from http.cookies import SimpleCookie
