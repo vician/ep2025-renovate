@@ -6,8 +6,8 @@ import os
 from http.cookies import SimpleCookie
 from random import choices
 
-r = requests.get('https://httpbin.org/basic-auth/user/pass', auth=('user', 'pass'))
-print(r.status_code)
+r = requests.get("https://httpbin.org/basic-auth/user/pass", auth=('user', 'pass'))
+print( r.status_code )
 
 cookies = SimpleCookie(os.getenv("HTTP_COOKIE"))
 
